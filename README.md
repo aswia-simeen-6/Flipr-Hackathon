@@ -1,24 +1,8 @@
-# graphs-from-csv
+This is a front-end application for NSE/BSE stock market trends
 
-An example repository for creating website graphs from CSV files. This repository uses c3.js and PapaParse.
+To run the stock market page
+Initially you have to run a python command:
 
-### Graph/Chart Library
-c3.js: http://c3js.org/
+python -m http.server
 
-### CSV/JSON Parsing Library
-PapaParse: http://papaparse.com/
-
-### Only Requirement
-You need a web server. I used python to initiate a web server.
-
-```
-python --version
-Python 2.7.10
-```
-
-```
-cd graphs-from-csv/
-python -m SimpleHTTPServer
-```
-
-Visit http://localhost:8000 to see the website.
+otherwise you will not be able to get the desired the output
